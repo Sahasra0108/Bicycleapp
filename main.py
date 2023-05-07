@@ -24,4 +24,4 @@ func.update("users","0715843108","name","Rohini")
 #print(users.val())
 
 #delete
-#db.child("User Table").child("0786779000").child("Age").remove()
+db.child("User Table").child("0786779000").child("Age").remove()
